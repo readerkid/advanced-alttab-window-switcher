@@ -1,0 +1,10 @@
+{
+  "name": "AATWS Dev (in-place)",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "containerUser": "vscode",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  }
+}
+
