@@ -1147,6 +1147,7 @@ export const WindowSwitcherPopup = {
             this._inputHandler.setInput('reset');
             this._activateWindow(selected);
         }
+        this._actions.moveToCurrentWS();
 
         this.fadeAndDestroy();
         if (this._shouldFadeAndDestroy(hasFocus))
